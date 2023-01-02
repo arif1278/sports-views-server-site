@@ -125,8 +125,7 @@ res.send(addservs);
     }); 
 
 
-// add get reviews sections partsSS
-// add get reviews sections partsSS
+// add get reviews sections part
 
 
 
@@ -197,6 +196,8 @@ app.get('/review',async(req,res)=>{
       );
       res.send(result);
     }); 
+
+// delete review 
 
     app.delete("/myreview/:id", async (req, res) => {
       const id = req.params.id;
