@@ -1,0 +1,22 @@
+[
+    {
+      "ide": "10",
+      "question": " Difference between SQL and NoSQL",
+      "answer": "There are a lot of databases used today in the industry. Some are SQL databases, some are NoSQL databases. The conventional database is SQL database system that uses tabular relational model to represent data and their relationship. The NoSQL database is the newer one database that provides a mechanism for storage and retrieval of data other than tabular relations model used in relational databases."
+    },
+    {
+      "ide": "11",
+      "question": "What is JWT, and how does it work?",
+      "answer": "JWT, or JSON Web Token, is an open standard(RFC 7519) set of claims to share security information or authorization/authentication requests between a client and a server. Each JWT contains encoded JSON objects. JWTs are signed using a cryptographic algorithm by the token’s issuer to ensure that No one could alter the claims after the token is issued and later can be used by the receiving party to verify the token."
+    },
+    {
+      "ide": "12",
+      "question": "What is the difference between javascript and NodeJS?",
+      "answer": "JavaScript is a high-level programming language that makes our web pages and web applications dynamic and interactive by giving them the ability to think and act. JavaScript is a lightweight (easy to learn syntax) and object-oriented programming language whereas Node.js is a runtime environment built on google v8 engine and typically used to represent a list of objects and functions that JavaScript programs can access."
+    },
+    {
+      "ide": "13",
+      "question": " How does NodeJS handle multiple requests at the same time?",
+      "answer": "How NodeJS handle multiple client requests? NodeJS receives multiple client requests and places them into EventQueue. NodeJS is built with the concept of event-driven architecture. NodeJS has its own EventLoop which is an infinite loop that receives requests and processes them."
+    }
+  ]
