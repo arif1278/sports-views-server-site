@@ -73,6 +73,8 @@ app.post('/jwt',(req,res)=>{
         res.send(services);
       });
 
+// add get serviceall
+
     app.get('/serviceall',async(req,res)=>{
         const query ={}
         const cursor=serviceCollection.find(query);
