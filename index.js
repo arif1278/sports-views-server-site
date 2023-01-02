@@ -48,6 +48,7 @@ async function run(){
     const addServiceCollection=client.db('photoService').collection('addservs');
     const addReviewCollection=client.db('myreview').collection('review');
 
+    // add post jwt in localstorage
 
 app.post('/jwt',(req,res)=>{
     const user=req.body;
