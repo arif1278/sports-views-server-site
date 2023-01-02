@@ -60,6 +60,7 @@ app.post('/jwt',(req,res)=>{
     res.send({token})
 })
 
+// get services items
 
     app.get('/services',async(req,res)=>{
         const query ={}
