@@ -215,6 +215,7 @@ app.get('/review',async(req,res)=>{
 } 
 run().catch(err=> console.error(err));
 
+// question get 
 
 app.get('/questions',(req,res)=>{
 res.send(question);
