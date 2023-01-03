@@ -43,7 +43,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
     })
  }
 
-// mongodb collection area
+// mongodb collection areas
 
 async function run(){
 
