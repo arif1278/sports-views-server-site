@@ -12,7 +12,7 @@ const port =process.env.PORT || 5000;
 // add middleware
 app.use(cors());
 
-// question and answer
+// questions and answers
 
 const question = require("./data/question.json");
 
